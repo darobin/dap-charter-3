@@ -1,0 +1,13 @@
+This is a draft proposed charter for the third iteration on DAP.
+
+It includes the following changes:
+
+    • Bluetooth API
+    • QR Codes API
+    • Application Store API
+    • Removed system beep
+    • Removed reading the current volume
+    • Removed requesting generic permission
+    • Remove privacy mechanism
+
+Nothing in here is definitive or committed to, and all is up for discussion.
