@@ -46,7 +46,7 @@
           The mission of the <a href='http://www.w3.org/2009/dap/'>Device APIs Working Group</a> is
           to create client-side APIs that enable the development of Web Applications that interact 
           with device hardware, services and applications such as the camera, microphone, system 
-          sensors, address books, calendars and messaging applications.
+          sensors, address books, calendars, and messaging applications.
         </p>
         <p>
           <a href='http://www.w3.org/2004/01/pp-impl/43696/join'>Join the Device APIs Working Group</a>.
@@ -69,14 +69,12 @@
               <td>Robin Berjon, Frederick Hirsch</td>
             </tr>
             <tr>
-              <th>Team Contact <br />
-                (FTE %: 20)</th>
+              <th>Team Contact<br/>(FTE %: 20)</th>
               <td>Dave Ragget, Dominique Hazaël-Massieux</td>
             </tr>
             <tr>
               <th>Usual Meeting Schedule</th>
-              <td>Teleconferences: 1 per week (only as needed) <br />
-                Face-to-face: 2-3 per year (only as needed)</td>
+              <td>Teleconferences: 1 per week (only as needed)<br/>Face-to-face: 2-3 per year (only as needed)</td>
             </tr>
           </tbody>
         </table>
@@ -97,7 +95,6 @@
           Adding these advanced features to the Web environment empowers Web developers 
           to create richer and more context-aware Web applications.
         </p>
-
         <p>
           Given the sensitive nature of the data and sensors to which these APIs grant access, 
           the Working Group also aims at crafting APIs that are both secure and privacy-enabling 
@@ -113,7 +110,7 @@
           The scope of this Working Group is this creation of API specifications for a device’s 
           services that can be exposed to Web applications . Devices in this context include 
           desktop computers, laptop computers, mobile Internet devices (MIDs), cellular phones, 
-          TVs, cameras and other connected devices.
+          TVs, cameras, and other connected devices.
         </p>
         <p>
           Priority will be given to developing simple and consensual APIs, leaving more complex 
@@ -135,7 +132,7 @@
           <p>
             To advance to Proposed Recommendation, each specification is expected to have two independent 
             implementations of all features defined in the specification, including implementation on a 
-            constrained device (e.g. mobile phone, TV).
+            constrained device (e.g. mobile phone, TV, camera).
           </p>
           <p>
             APIs that cannot be demonstrated to be implementable securely within the default browser context 
@@ -177,18 +174,21 @@
               or record a sound.
             </li>
             <li id='messaging'>
-              Messaging API, an API to create and send a message. The API is agnostic to the underlying 
+              Messaging API, an API to create and send a message. The API may be agnostic to the underlying 
               messaging service (e.g. e-mail, SMS, MMS).
             </li>
             <li id='network'>An API to discover the current network characteristics.</li>
             <li id='battery'>An API to react to a device power status.</li>
             <li id='sysinfo'>An API to retrieve data generically from sensors.</li>
             <li id='applauncher'>
-              An API that allows web applications to register themselves as handlers/providers based on 
-              data string identifiers and an API that enables other web applications to discover these 
-              handlers/providers and gain permission to interact with them.
+              An API that allows Web applications to register themselves as handlers/providers based on 
+              identifiers and an API that enables other Web applications to discover these handlers/providers 
+              and gain permission to interact with them. This is commonly known as Web Intents, though the
+              final specification may carry a different name.
             </li>
-            <li id='gallery'>Gallery API, an API to manage the local media file storage.</li>
+            <li id='gallery'>
+              Gallery API, an API to access the user's media gallery services (e.g. pictures, music play lists).
+            </li>
             <li id='ui'>An API to manage vibration.</li>
             <li id='beep'>An API to manage systems beeps.</li>
             <li id='menus'>An API to manage application menus.</li>
